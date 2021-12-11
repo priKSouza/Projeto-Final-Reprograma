@@ -6,22 +6,22 @@ const Menu = () => {
   return (
     <ul className="navbar">
       <li>
-        <Link className="link" to="/">
+        <Link title="Home" className="link" to="/">
           <ImHome />
         </Link>
       </li>
       <li>
-        <Link className="link" to="/quiz">
+        <Link title="Quiz" className="link" to="/quiz">
           <ImEmbed />
         </Link>
       </li>
       <li>
-        <Link className="link" to="/portfolio">
+        <Link title="Portfólio" className="link" to="/portfolio">
           <ImStack />
         </Link>
       </li>
       <li>
-        <Link className="link" to="/contato">
+        <Link title="Contato" className="link" to="/contato">
           <ImAddressBook />
         </Link>
       </li>

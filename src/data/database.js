@@ -1,7 +1,7 @@
 const MyQuestions = [
     {
       id:1,
-      question: "Qual a tag que insere uma quebra de linha no seu HTML?",
+      question: "1º - Qual a tag que insere uma quebra de linha no seu HTML?",
       answers: {
         a: "< br >",
         b: "< span >",
@@ -12,7 +12,7 @@ const MyQuestions = [
     },
     {
       id:2,
-      question: "Qual a tag que insere uma imagem no seu HTML?",
+      question: "2º - Qual a tag que insere uma imagem no seu HTML?",
       answers: {
         a: "< h1 >",
         b: "< img >",
@@ -23,7 +23,7 @@ const MyQuestions = [
     },
     {
       id:3,
-      question: "Qual a tag me permite criar uma lista não ordenada no HTML ?",
+      question: "3º - Qual a tag me permite criar uma lista não ordenada no HTML ?",
       answers: {
         a: "< ol >",
         b: "< div >",
@@ -34,7 +34,7 @@ const MyQuestions = [
     },
     {
       id:4,
-      question: "Para deixar a cor de um texto amarelo qual propriedade e valor devo usar no CSS?",
+      question: "4º - Para deixar a cor de um texto amarelo qual propriedade e valor devo usar no CSS?",
       answers: {
         a: "background-color:yellow;",
         b: "color:yellow;",
@@ -45,7 +45,7 @@ const MyQuestions = [
     },
     {
       id:5,
-      question: "Qual propriedade e valor devo usar para deixar meu texto alinhado à direita no CSS?",
+      question: "5º - Qual propriedade e valor devo usar para deixar meu texto alinhado à direita no CSS?",
       answers: {
         a: "text-align: center;",
         b: "align-items: end;",
@@ -56,7 +56,7 @@ const MyQuestions = [
     },
     {
       id:6,
-      question: "Qual propriedade e valor deixa a fonte MAIÚSCULA no CSS?",
+      question: "6º - Qual propriedade e valor deixa a fonte MAIÚSCULA no CSS?",
       answers: {
         a: "text-transform: uppercase;",
         b: "font-weight: bold;",
@@ -67,7 +67,7 @@ const MyQuestions = [
     },
     {
       id:7,
-      question: "Qual função é utilizada para testar o código no navegador?",
+      question: "7º - Qual função é utilizada para testar o código no navegador?",
       answers: {
         a: "console.log()",
         b: "const",
@@ -78,7 +78,7 @@ const MyQuestions = [
     },
     {
       id:8,
-      question: "Observe o array: <br><br>const fruits = ['Apple', 'Banana', 'Pear']<br>console.log(fruits[1]) <br><br>Qual fruta ele retornará?",
+      question: "8º - Observe o array:  const fruits = ['Apple', 'Banana', 'Pear']       console.log(fruits[1])    Qual fruta ele retornará?",
       answers: {
         a: "Apple",
         b: "Nenhuma das Alternativas",
@@ -89,7 +89,7 @@ const MyQuestions = [
     },
     {
       id:9,
-      question: "Observe o código HTML: <br><br> < input type=text id=textInput class=text-input /> <br><br>Como retornar o elemento utilizando o getElementById()?",
+      question: "9º - Observe o código HTML:  < input type=text id=textInput class=text-input />  Como retornar o elemento utilizando o getElementById()?",
       answers: {
         a: "getElementById('text')",
         b: "getElementById('text-input')",
@@ -100,7 +100,7 @@ const MyQuestions = [
     },
     {
       id:10,
-      question: "Qual comando para criar um novo projeto em React?",
+      question: "10º - Qual comando para criar um novo projeto em React?",
       answers: {
         a: "yarn start",
         b: "yarn create react-app",

@@ -1,19 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap");
 
 .main {
+  background-image: url(../../assets/aquarela.png);
+  background-color: transparent;
+  background-size: contain;
+  background-position: center;
   display: flex;
+  margin: 40px auto;
+  gap: 35px;
+  margin-top: 100px;
+}
+
+.main-priscila {
   margin: 40px auto;
   align-items: center;
   justify-content: center;
   gap: 35px;
   margin-top: 250px;
 }
-
-/* .main img {
-  width: 200px;
-  height: 200px;
-  border-radius: 50px;
-} */
 
 .main h2 {
   margin-bottom: 15px;

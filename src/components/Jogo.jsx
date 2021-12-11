@@ -4,10 +4,11 @@ const Jogo = () => {
   return (
     <>
       {MyQuestions.map(MyQuestions =>
-        <div key={MyQuestions.id}>
-          <h3>{MyQuestions.question}</h3>
-          {/* <input type="radio"> {MyQuestions.answers}</input> */}
+        <div className="quiz" key={MyQuestions.id}>
+          <h3 className="quiz-question">{MyQuestions.question}</h3>
+          {/* <input type="radio">{MyQuestions.answers}</input> */}
         </div>
+        
         )}
     </>
   );
