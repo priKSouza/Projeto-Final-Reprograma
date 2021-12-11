@@ -8,7 +8,7 @@ import {
 import Menu from "../../components/Menu/Menu"
 import Footer from "../../components/Footer/Footer"
 import Header from "../../components/Header/Header"
-import ImageHome from "../../assets/profile.svg"
+import ImageHome from "../../assets/sobremim.svg"
 
 import "./home.css";
 
@@ -18,10 +18,9 @@ const Home = () => {
     <Menu />
     <Header image={ImageHome}>Criadora desse projeto</Header>
       <div className="main">
-        <img
-          src="https://lh3.googleusercontent.com/tSsmduNEqobmnvM3eqschMQHGPZ3VoWLack0XKkfd2Jq35vEeK6QW_HtVzN7dVjSOP0haRlMv3DFPNqA8t6KNbUXE6gHa1m-jGbZ8-WFnf2un6sWCuX1ovWz-tzhax8YBfbRZygnE12Ie-ky2g9DcOEfTwDAlv3YOQXZnm09YmF8EJOXDjwHJP1v_QY1F-IOOcn7EJU4NYx0jYHhaQdyvfkXjHg15y-yqK_jP7cnqwYHn8l3S3gM9v7J-8A8cejPw0yDYIrmA03VCdpPIAXj0DYtXzbxH3pjFV7Dg8IfNeMbVsS-rpeYHXfL-TdlzJWcyDoRbqn59PkS_ZDF4urzjJBSLP1HevZ3j7Hz17nictx9PsNAERM4HfrZ8xOIhVY0FNA5xWax7lz1A-YX4u3nTpESMzcrwOJPXo0Fsoi5nRQl0Ah9ys1hf-Mo1ksQ0AkdAwurM5rPg1zIpG5AX79oGLLcHqG_Wu-Q8oNLVyl1EShFHYtn-7AjqY9CKvHjWmZB3sTTEZUdYtouXMeKtGMZY2TrpbuTKjzzWxlm5j7RPDr1T8WfZ9iPcP47s8h821CD_j7nThqhpztRDeeGjNnysn2FWRcPMOGfh5CAM_HeRTTJcAmQVDsQ2sKYZ6aoMGtyqWuXusQLH0D3i60DHtJa9VdOe8NtE2vBoifDhWofxrZg6HeraDSh3Xg6FqZOJdbhotpkrhbLODqUCStcwJj8gbqQBw=s617-no?authuser=0"
+        {/* <img src="https://lh3.googleusercontent.com/tSsmduNEqobmnvM3eqschMQHGPZ3VoWLack0XKkfd2Jq35vEeK6QW_HtVzN7dVjSOP0haRlMv3DFPNqA8t6KNbUXE6gHa1m-jGbZ8-WFnf2un6sWCuX1ovWz-tzhax8YBfbRZygnE12Ie-ky2g9DcOEfTwDAlv3YOQXZnm09YmF8EJOXDjwHJP1v_QY1F-IOOcn7EJU4NYx0jYHhaQdyvfkXjHg15y-yqK_jP7cnqwYHn8l3S3gM9v7J-8A8cejPw0yDYIrmA03VCdpPIAXj0DYtXzbxH3pjFV7Dg8IfNeMbVsS-rpeYHXfL-TdlzJWcyDoRbqn59PkS_ZDF4urzjJBSLP1HevZ3j7Hz17nictx9PsNAERM4HfrZ8xOIhVY0FNA5xWax7lz1A-YX4u3nTpESMzcrwOJPXo0Fsoi5nRQl0Ah9ys1hf-Mo1ksQ0AkdAwurM5rPg1zIpG5AX79oGLLcHqG_Wu-Q8oNLVyl1EShFHYtn-7AjqY9CKvHjWmZB3sTTEZUdYtouXMeKtGMZY2TrpbuTKjzzWxlm5j7RPDr1T8WfZ9iPcP47s8h821CD_j7nThqhpztRDeeGjNnysn2FWRcPMOGfh5CAM_HeRTTJcAmQVDsQ2sKYZ6aoMGtyqWuXusQLH0D3i60DHtJa9VdOe8NtE2vBoifDhWofxrZg6HeraDSh3Xg6FqZOJdbhotpkrhbLODqUCStcwJj8gbqQBw=s617-no?authuser=0"
           alt="Priscila Souza"
-        />
+        /> */}
         <div>
           <h2>Priscila Souza</h2>
           <p>

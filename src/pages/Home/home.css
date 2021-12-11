@@ -1,20 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap");
 
 .main {
-  /* color: #B01B00; */
   display: flex;
   margin: 40px auto;
   align-items: center;
   justify-content: center;
   gap: 35px;
-  margin-top: 150px;
+  margin-top: 250px;
 }
 
-.main img {
+/* .main img {
   width: 200px;
   height: 200px;
   border-radius: 50px;
-}
+} */
 
 .main h2 {
   margin-bottom: 15px;
@@ -24,7 +23,6 @@
 }
 
 .historia {
-  /* color: #B01B00; */
   display: block;
   margin: 40px auto;
   align-items: flex-start;

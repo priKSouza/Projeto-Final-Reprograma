@@ -1,5 +1,6 @@
 const MyQuestions = [
     {
+      id:1,
       question: "Qual a tag que insere uma quebra de linha no seu HTML?",
       answers: {
         a: "< br >",
@@ -10,6 +11,7 @@ const MyQuestions = [
       correctAnswer: "a",
     },
     {
+      id:2,
       question: "Qual a tag que insere uma imagem no seu HTML?",
       answers: {
         a: "< h1 >",
@@ -20,6 +22,7 @@ const MyQuestions = [
       correctAnswer: "b",
     },
     {
+      id:3,
       question: "Qual a tag me permite criar uma lista não ordenada no HTML ?",
       answers: {
         a: "< ol >",
@@ -30,6 +33,7 @@ const MyQuestions = [
       correctAnswer: "c",
     },
     {
+      id:4,
       question: "Para deixar a cor de um texto amarelo qual propriedade e valor devo usar no CSS?",
       answers: {
         a: "background-color:yellow;",
@@ -40,6 +44,7 @@ const MyQuestions = [
       correctAnswer: "b",
     },
     {
+      id:5,
       question: "Qual propriedade e valor devo usar para deixar meu texto alinhado à direita no CSS?",
       answers: {
         a: "text-align: center;",
@@ -50,6 +55,7 @@ const MyQuestions = [
       correctAnswer: "c",
     },
     {
+      id:6,
       question: "Qual propriedade e valor deixa a fonte MAIÚSCULA no CSS?",
       answers: {
         a: "text-transform: uppercase;",
@@ -60,6 +66,7 @@ const MyQuestions = [
       correctAnswer: "a",
     },
     {
+      id:7,
       question: "Qual função é utilizada para testar o código no navegador?",
       answers: {
         a: "console.log()",
@@ -70,6 +77,7 @@ const MyQuestions = [
       correctAnswer: "a",
     },
     {
+      id:8,
       question: "Observe o array: <br><br>const fruits = ['Apple', 'Banana', 'Pear']<br>console.log(fruits[1]) <br><br>Qual fruta ele retornará?",
       answers: {
         a: "Apple",
@@ -80,6 +88,7 @@ const MyQuestions = [
       correctAnswer: "c",
     },
     {
+      id:9,
       question: "Observe o código HTML: <br><br> < input type=text id=textInput class=text-input /> <br><br>Como retornar o elemento utilizando o getElementById()?",
       answers: {
         a: "getElementById('text')",
@@ -90,6 +99,7 @@ const MyQuestions = [
       correctAnswer: "d",
     },
     {
+      id:10,
       question: "Qual comando para criar um novo projeto em React?",
       answers: {
         a: "yarn start",

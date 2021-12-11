@@ -21,7 +21,7 @@ const Contato = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <BsGithub size={30} color="#FFC300" />
+            <BsGithub size={30} color="#000" />
           </a>
 
           <a
@@ -30,7 +30,7 @@ const Contato = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <BsLinkedin size={30} color="#FFC300" />
+            <BsLinkedin size={30} color="#000" />
           </a>
 
           <a
@@ -39,7 +39,7 @@ const Contato = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <BsInstagram size={30} color="#FFC300" />
+            <BsInstagram size={30} color="#000" />
           </a>
 
           <a
@@ -48,7 +48,7 @@ const Contato = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <BsBehance size={30} color="#FFC300" />
+            <BsBehance size={30} color="#000" />
           </a>
         </div>
       </div>

@@ -1,16 +1,15 @@
-import MyQuestions from "../../data/database";
+import MyQuestions from "../../src/data/database";
 
 const Jogo = () => {
   return (
     <>
-      <div style="display: none;" id="quiz"></div>
-
-      <div class="botao">
-        <button id="submit">Quantas será que vou acertar?</button>
-      </div>
-      <div id="results"></div>
+      {MyQuestions.map(MyQuestions =>
+        <div key={MyQuestions.id}>
+          <h3>{MyQuestions.question}</h3>
+          {/* <input type="radio"> {MyQuestions.answers}</input> */}
+        </div>
+        )}
     </>
   );
 };
-
 export default Jogo;
