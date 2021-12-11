@@ -1,0 +1,17 @@
+.navbar {
+  display: inline-block;
+  position: fixed;
+  background: #FFC300;
+  font-size: 34px;
+  padding: 20px;
+  /* box-shadow: inset 0 0 0.9em #B01B00; */
+}
+
+.navbar a {
+  color: #B01B00;
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}

@@ -1,0 +1,30 @@
+.input {
+  width: 20%;
+  height: 40px;
+  display: flex;
+  text-align: center;
+  border: 2px solid #b01b00;
+  border-radius: 0 10px;
+  font-size: 18px;
+  margin: auto;
+  margin-top: 120px;
+  margin-bottom: 40px;
+  color: #b01b00;
+}
+
+.input::placeholder {
+  color: #ffc300;
+}
+
+.card-principal {
+  width: 30%;
+  display: inline-block;
+  text-align: center;
+  border: 2px solid #b01b00;
+  color: #b01b00;
+  margin: 20px;
+  padding: 10px;
+  text-transform: capitalize;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #ffc300;
+}
