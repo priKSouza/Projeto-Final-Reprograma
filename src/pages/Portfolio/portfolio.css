@@ -3,13 +3,13 @@
   height: 40px;
   display: flex;
   text-align: center;
-  border: 2px solid #b01b00;
+  border: 2px solid #000;
   border-radius: 0 10px;
   font-size: 18px;
   margin: auto;
   margin-top: 120px;
   margin-bottom: 40px;
-  color: #b01b00;
+  color: #000;
 }
 
 .input::placeholder {
@@ -20,8 +20,8 @@
   width: 30%;
   display: inline-block;
   text-align: center;
-  border: 2px solid #b01b00;
-  color: #b01b00;
+  border: 2px solid #000;
+  color: #000;
   margin: 20px;
   padding: 10px;
   text-transform: capitalize;

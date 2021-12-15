@@ -1,114 +1,104 @@
-const MyQuestions = [
-    {
-      id:1,
-      question: "1º - Qual a tag que insere uma quebra de linha no seu HTML?",
-      answers: {
-        a: "< br >",
-        b: "< span >",
-        c: "< b >",
-        d: "< p >",
-      },
-      correctAnswer: "a",
-    },
-    {
-      id:2,
-      question: "2º - Qual a tag que insere uma imagem no seu HTML?",
-      answers: {
-        a: "< h1 >",
-        b: "< img >",
-        c: "< a href >",
-        d: "< html >",
-      },
-      correctAnswer: "b",
-    },
-    {
-      id:3,
-      question: "3º - Qual a tag me permite criar uma lista não ordenada no HTML ?",
-      answers: {
-        a: "< ol >",
-        b: "< div >",
-        c: "< ul >",
-        d: "< li >",
-      },
-      correctAnswer: "c",
-    },
-    {
-      id:4,
-      question: "4º - Para deixar a cor de um texto amarelo qual propriedade e valor devo usar no CSS?",
-      answers: {
-        a: "background-color:yellow;",
-        b: "color:yellow;",
-        c: "background:url();",
-        d: "color:#FFF;",
-      },
-      correctAnswer: "b",
-    },
-    {
-      id:5,
-      question: "5º - Qual propriedade e valor devo usar para deixar meu texto alinhado à direita no CSS?",
-      answers: {
-        a: "text-align: center;",
-        b: "align-items: end;",
-        c: "text-align: right;",
-        d: "justify-content: space-around;",
-      },
-      correctAnswer: "c",
-    },
-    {
-      id:6,
-      question: "6º - Qual propriedade e valor deixa a fonte MAIÚSCULA no CSS?",
-      answers: {
-        a: "text-transform: uppercase;",
-        b: "font-weight: bold;",
-        c: "font-family: Nunito;",
-        d: "background-size: cover;",
-      },
-      correctAnswer: "a",
-    },
-    {
-      id:7,
-      question: "7º - Qual função é utilizada para testar o código no navegador?",
-      answers: {
-        a: "console.log()",
-        b: "const",
-        c: "function",
-        d: "alert('testando código')",
-      },
-      correctAnswer: "a",
-    },
-    {
-      id:8,
-      question: "8º - Observe o array:  const fruits = ['Apple', 'Banana', 'Pear']       console.log(fruits[1])    Qual fruta ele retornará?",
-      answers: {
-        a: "Apple",
-        b: "Nenhuma das Alternativas",
-        c: "Banana",
-        d: "Pear",
-      },
-      correctAnswer: "c",
-    },
-    {
-      id:9,
-      question: "9º - Observe o código HTML:  < input type=text id=textInput class=text-input />  Como retornar o elemento utilizando o getElementById()?",
-      answers: {
-        a: "getElementById('text')",
-        b: "getElementById('text-input')",
-        c: "getElementById('input')",
-        d: "getElementById('textInput')",
-      },
-      correctAnswer: "d",
-    },
-    {
-      id:10,
-      question: "10º - Qual comando para criar um novo projeto em React?",
-      answers: {
-        a: "yarn start",
-        b: "yarn create react-app",
-        c: "Happy hacking!",
-        d: "yarn -v",
-      },
-      correctAnswer: "b",
-    },
-  ];
+const questions = [
+  {
 
-  export default MyQuestions
+    questionstext: "Qual a tag que insere uma quebra de linha no seu HTML?",
+    answersOptions: [
+      {answersText: "< br >", isCorrect:true},
+      {answersText: "< span >", isCorrect:false},
+      {answersText: "< b >", isCorrect:false},
+      {answersText: "< p >", isCorrect:false}
+    ],
+  },
+  {
+
+    questionstext: "Qual a tag que insere uma imagem no seu HTML?",
+    answersOptions: [
+      {answersText: "< h1 >", isCorrect:false},
+      {answersText: "< img >", isCorrect:true},
+      {answersText: "< a href >", isCorrect:false},
+      {answersText: "< html >", isCorrect:false}
+    ],
+  },
+  {
+
+    questionstext: "Qual a tag me permite criar uma lista não ordenada no HTML ?",
+      answersOptions: [
+      {answersText: "< ol >", isCorrect:false},
+      {answersText: "< div >", isCorrect:false},
+      {answersText: "< ul >", isCorrect:true},
+      {answersText: "< li >", isCorrect:false}
+      ],
+  },
+  {
+
+    questionstext: "Para deixar a cor de um texto amarelo qual propriedade e valor devo usar no CSS?",
+      answersOptions: [
+      {answersText: "background-color:yellow;", isCorrect:false},
+      {answersText: "color:yellow;", isCorrect:true},
+      {answersText: "background:url();", isCorrect:false},
+      {answersText: "color:#FFF;", isCorrect:false}
+      ],
+  },
+  {
+
+    questionstext: "Qual propriedade e valor devo usar para deixar meu texto alinhado à direita no CSS?",
+      answersOptions: [
+      {answersText: "text-align: center;", isCorrect:false},
+      {answersText: "align-items: end;", isCorrect:false},
+      {answersText: "text-align: right;", isCorrect:true},
+      {answersText: "justify-content: space-around;", isCorrect:false}
+      ],
+  },
+  {
+
+    questionstext: "Qual propriedade e valor deixa a fonte MAIÚSCULA no CSS?",
+    answersOptions: [
+      {answersText: "text-transform: uppercase;", isCorrect:true},
+      {answersText: "font-weight: bold;", isCorrect:false},
+      {answersText: "font-family: Nunito;", isCorrect:false},
+      {answersText: "background-size: cover;", isCorrect:false}
+    ],
+  },
+  {
+
+    questionstext: "Qual função é utilizada para testar o código no navegador?",
+    answersOptions: [
+      {answersText: "console.log()", isCorrect:true},
+      {answersText: "const", isCorrect:false},
+      {answersText: "function", isCorrect:false},
+      {answersText: "alert('testando código')", isCorrect:false}
+    ],
+  },
+  {
+
+    questionstext: "Observe o array:  const fruits = ['Apple', 'Banana', 'Pear']       console.log(fruits[1])    Qual fruta ele retornará?",
+      answersOptions: [
+      {answersText: "Apple", isCorrect:false},
+      {answersText: "Nenhuma das Alternativas", isCorrect:false},
+      {answersText: "Banana", isCorrect:true},
+      {answersText: "Pear", isCorrect:false}
+      ],
+  },
+  {
+
+    questionstext: "Observe o código HTML:  < input type=text id=textInput class=text-input />  Como retornar o elemento utilizando o getElementById()?",
+      answersOptions: [
+      {answersText: "getElementById('text')", isCorrect:false},
+      {answersText: "getElementById('text-input')", isCorrect:false},
+      {answersText: "getElementById('input')", isCorrect:false},
+      {answersText: "getElementById('textInput')", isCorrect:true}
+      ],
+  },
+  {
+
+    questionstext: "Qual comando para criar um novo projeto em React?",
+    answersOptions: [
+      {answersText: "yarn start", isCorrect:false},
+      {answersText: "yarn create react-app", isCorrect:true},
+      {answersText: "Happy hacking!", isCorrect:false},
+      {answersText: "yarn -v", isCorrect:false}
+    ],
+  }
+];
+
+export default questions;
