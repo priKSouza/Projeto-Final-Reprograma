@@ -47,3 +47,25 @@
 .reprograma:hover {
   color: #e85d04;
 }
+
+@media (min-width: 320px) and (max-width: 800px){
+  .main{
+    margin: 10px auto;
+    background-repeat: no-repeat;
+  } 
+  .main-priscila{
+    margin: 40px auto;
+  }
+  .main h2{
+    font-size: 30px;
+    text-align: center;
+  }
+  .main p{
+    font-size: 14px;
+  }
+  .historia{
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+  }
+}

@@ -28,3 +28,17 @@
   border-radius: 10px;
   box-shadow: 5px 5px 5px #ffc300;
 }
+
+@media (min-width: 320px) and (max-width: 800px) {
+  .input {
+    width: 50%;
+  }
+  .card-principal {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 20px;
+    justify-content: center;
+    width: auto;
+  }
+}

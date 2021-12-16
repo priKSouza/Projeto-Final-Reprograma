@@ -28,9 +28,15 @@
 }
 
 .click :hover {
-  color: #FFC300;
+  color: #ffc300;
 }
 
 .redes p {
   color: #000;
+}
+
+@media (min-width: 320px) and (max-width: 800px) {
+  .redes {
+    width: auto;
+  }
 }

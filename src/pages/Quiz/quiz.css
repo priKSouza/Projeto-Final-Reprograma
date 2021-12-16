@@ -1,22 +1,27 @@
-.sessao-quiz{
-    display: flex;
-    justify-content: center;
+.sessao-quiz {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  margin: 30px auto;
 }
 
-.texto-quiz{
-    text-align: center;
-    width: 45%;
+.texto-quiz {
+  display: block;
+  margin: 40px auto;
+  align-items: flex-start;
+  text-align: justify;
+  width: 80%;
 }
 
-.titulo-quiz{
-    text-align: center;
-    margin: 40px;
+.titulo-quiz {
+  text-align: center;
+  margin: 40px;
 }
 
 .app {
   background-color: #ffc300;
   margin: 0 auto 55px;
-  width: 450px;
+  width: 600px;
   min-height: 200px;
   height: min-content;
   border-radius: 25px;
@@ -34,6 +39,7 @@
 
 .question {
   width: 100%;
+  margin: 10px;
   position: relative;
 }
 
@@ -76,4 +82,23 @@ button:hover {
 
 button:focus {
   outline: none;
+}
+
+@media (min-width: 320px) and (max-width: 800px) {
+  .texto-quiz {
+    font-size: 14px;
+  }
+  .sessao-quiz {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+  }
+
+  .titulo-quiz {
+    font-size: 25px;
+  }
+  .app {
+    width: 80%;
+    height: 50%;
+  }
 }
