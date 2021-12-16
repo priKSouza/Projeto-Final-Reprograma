@@ -39,4 +39,7 @@
   .redes {
     width: auto;
   }
+  .redes p{
+    font-size: 20px;
+  }
 }

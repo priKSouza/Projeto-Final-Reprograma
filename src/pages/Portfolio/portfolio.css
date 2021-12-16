@@ -37,8 +37,8 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    margin: 20px;
+    margin: 20px auto;
     justify-content: center;
-    width: auto;
+    width: 80%;
   }
 }

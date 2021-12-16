@@ -92,6 +92,7 @@ button:focus {
     display: flex;
     justify-content: center;
     font-size: 14px;
+    width: 90%;
   }
 
   .titulo-quiz {
