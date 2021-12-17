@@ -71,7 +71,7 @@ const questions = [
   },
   {
 
-    questionstext: "-------Observe o array:------- const fruits = ['Apple', 'Banana', 'Pear']       console.log(fruits[1])    Qual fruta ele retornará?",
+    questionstext: "Observe o array:--- const fruits = ['Apple', 'Banana', 'Pear']       console.log(fruits[1])    Qual fruta ele retornará?",
       answersOptions: [
       {answersText: "Apple", isCorrect:false},
       {answersText: "Nenhuma das Alternativas", isCorrect:false},
@@ -81,12 +81,12 @@ const questions = [
   },
   {
 
-    questionstext: "-------Observe o código:------- < input type=text id=textInput class=text-input />.  Como retornar o elemento utilizando o getElementById()?",
+    questionstext: "Como criar uma arrow function?",
       answersOptions: [
-      {answersText: "getElementById('text')", isCorrect:false},
-      {answersText: "getElementById('text-input')", isCorrect:false},
-      {answersText: "getElementById('input')", isCorrect:false},
-      {answersText: "getElementById('textInput')", isCorrect:true}
+      {answersText: "const = []", isCorrect:false},
+      {answersText: "if {}", isCorrect:false},
+      {answersText: "fetch ()", isCorrect:false},
+      {answersText: "function = () => {}", isCorrect:true}
       ],
   },
   {
