@@ -98,6 +98,26 @@ const questions = [
       {answersText: "Happy hacking!", isCorrect:false},
       {answersText: "yarn -v", isCorrect:false}
     ],
+  },
+  {
+
+    questionstext: "Como adicionar uma Classe no React?",
+    answersOptions: [
+      {answersText: "class", isCorrect:false},
+      {answersText: "className", isCorrect:true},
+      {answersText: "styled!", isCorrect:false},
+      {answersText: "yarn class", isCorrect:false}
+    ],
+  },
+  {
+
+    questionstext: "Como é chamado essa tag vazia <> </>, no React?",
+    answersOptions: [
+      {answersText: "div invisível", isCorrect:false},
+      {answersText: "props", isCorrect:false},
+      {answersText: "react fragment", isCorrect:true},
+      {answersText: "children", isCorrect:false}
+    ],
   }
 ];
 
