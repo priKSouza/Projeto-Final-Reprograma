@@ -3,8 +3,9 @@
   height: 40px;
   display: flex;
   text-align: center;
-  border: 2px solid #000;
-  border-radius: 0 10px;
+  box-shadow: 0 3px 3px 3px rgb(0 0 0 / 13%);
+  border: 2px solid #ffc300;
+  border-radius: 10px;
   font-size: 18px;
   margin: auto;
   margin-top: 120px;
@@ -20,13 +21,12 @@
   width: 30%;
   display: inline-block;
   text-align: center;
-  border: 2px solid #000;
   color: #000;
   margin: 20px;
   padding: 10px;
   text-transform: capitalize;
   border-radius: 10px;
-  box-shadow: 5px 5px 5px #ffc300;
+  box-shadow: 0 3px 3px 3px #ffc300;
 }
 
 @media (min-width: 320px) and (max-width: 800px) {

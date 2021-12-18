@@ -4,6 +4,7 @@ import Footer from "../../components/Footer/Footer";
 import ImageQuiz from "../../assets/quiz.svg";
 import Jogo from "../../components/Jogo";
 
+
 import "../Quiz/quiz.css";
 
 const Quiz = () => {
@@ -33,7 +34,7 @@ const Quiz = () => {
           Vamos brincar um pouco?
         </p>
       </div>
-      <h1 className="titulo-quiz">Quiz de programação</h1>
+      <h1 className="titulo-quiz">Quiz de programação </h1>
       <Jogo />
       <Footer />
     </>

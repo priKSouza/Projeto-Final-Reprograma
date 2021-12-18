@@ -1,10 +1,11 @@
 import { VscGithubInverted } from 'react-icons/vsc'
+import { BiCopyright } from 'react-icons/bi'
 import './footer.css'
 
 const Footer = () => {
     return(
         <div className="footer">
-            <span>Priscila Souza <a className="git" target="_blank" rel="noreferrer" href="https://github.com/priKSouza"><VscGithubInverted/></a></span>
+            <span><BiCopyright/> Copyright 2021 | Desenvolvido por Priscila Souza</span>
         </div>
     )
 }

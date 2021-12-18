@@ -1,9 +1,11 @@
 .navbar {
+  margin: 5px;
   display: inline-block;
   position: fixed;
   background: #FFC300;
   font-size: 34px;
   padding: 12px;
+  border-radius: 10px;
 }
 
 .navbar a {
