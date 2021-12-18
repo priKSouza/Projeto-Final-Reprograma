@@ -1,4 +1,3 @@
-import { VscGithubInverted } from 'react-icons/vsc'
 import { BiCopyright } from 'react-icons/bi'
 import './footer.css'
 
