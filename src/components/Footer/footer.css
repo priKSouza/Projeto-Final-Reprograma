@@ -19,7 +19,7 @@ span{
 
 @media (min-width: 320px) and (max-width: 800px){
     .footer{
-      width: -webkit-fill-available;
+      /* width: -webkit-fill-available; */
       font-size: 14px;
     }
   }
